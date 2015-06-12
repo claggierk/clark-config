@@ -1,0 +1,26 @@
+"*":
+  editor:
+    invisibles:
+      {}
+    showIndentGuide: true
+    fontSize: 15
+  "exception-reporting":
+    userId: "6fabf5d7-e699-1384-4150-f4c15656d4d4"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "602f28219bb72fb1dd796449392a710f4be44441"
+  autosave:
+    enabled: true
+  core:
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".log"
+    ]
+  "atom-beautify":
+    _analyticsUserId: "9761a500-e493-42db-8fb6-fdba596ebb1b"
+  "tabs-to-spaces":
+    onSave: "untabify"
+".js.source":
+  "tabs-to-spaces":
+    onSave: "none"
