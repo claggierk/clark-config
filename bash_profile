@@ -9,3 +9,6 @@ fi
 
 export GOROOT=/usr/local/go
 export GOPATH=/Users/cphillips/gocode
+
+PATH=$PATH:/usr/local/sbin
+export PATH
