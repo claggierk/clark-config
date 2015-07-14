@@ -1,1 +1,1 @@
-# clark-config
+# Configuration files
