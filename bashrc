@@ -9,4 +9,6 @@ alias vbp='vim ~/.bash_profile'
 alias vb='vim ~/.bashrc'
 alias sb='source ~/.bashrc'
 
+alias sshmi='ssh mortgbd9@box1220.bluehost.com'
+
 export GIT_EDITOR='/usr/local/bin/atom -w'
