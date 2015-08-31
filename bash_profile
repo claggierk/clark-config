@@ -1,5 +1,4 @@
 if [ -f ~/.git-prompt.sh ]; then
-  echo "setting PS1"
   source ~/.git-prompt.sh
   # blue = 01;29m
   # grey = 01;30m
@@ -13,7 +12,6 @@ if [ -f ~/.git-prompt.sh ]; then
 
   #                                             user@hostname       dir               branch                     $ color      typing text color   
   PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;36m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
-  echo $PS1
 fi
 
 export GOROOT=/usr/local/go
