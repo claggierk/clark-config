@@ -51,6 +51,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
+PATH=$PATH:/usr/local/sbin
+export PATH
+
 # rbenv (https://gorails.com/setup/ubuntu/14.04)
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
