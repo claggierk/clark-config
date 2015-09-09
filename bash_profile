@@ -13,9 +13,3 @@ if [ -f ~/.git-prompt.sh ]; then
   #                                             user@hostname       dir               branch                     $ color      typing text color   
   PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;36m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
 fi
-
-export GOROOT=/usr/local/go
-export GOPATH=/Users/cphillips/gocode
-
-PATH=$PATH:/usr/local/sbin
-export PATH
