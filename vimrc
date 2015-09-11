@@ -29,7 +29,7 @@ colorscheme default
 "colorscheme darkblue"
 
 
-set nohlsearch
+set hlsearch
 set ai
 set bg=dark
 set showmatch
