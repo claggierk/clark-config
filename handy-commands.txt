@@ -1,0 +1,2 @@
+# shows how space much each directory in / is taking
+du -h -d 1 /
