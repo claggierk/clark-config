@@ -11,5 +11,7 @@ if [ -f ~/.git-prompt.sh ]; then
   # white = 01;37m
 
   #                                             user@hostname       dir               branch                     $ color      typing text color   
-  PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;36m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+  export PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;36m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '
+else
+  export PS1="\[\033[01;32m\]\u@\h\[\033[01;30m\] \w\033[01;34m\] \$\[\033[00m\] "
 fi
