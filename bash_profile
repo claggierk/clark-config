@@ -15,3 +15,6 @@ if [ -f ~/.git-prompt.sh ]; then
 else
   export PS1="\[\033[01;32m\]\u@\h\[\033[01;30m\] \w\033[01;34m\] \$\[\033[00m\] "
 fi
+
+export HISTFILESIZE=
+export HISTSIZE=
